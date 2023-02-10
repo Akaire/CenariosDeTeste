@@ -1,0 +1,50 @@
+<h1 align="center"> Planejamento de teste em tela de login </h1>
+
+// Cenários de teste:
+
+1 - Tentar cadastrar com campos vazios.
+Somente tentar clicar em cadastrar sem preencher nenhum campo;</br>
+Preencher apenas o campo "Nome" e tentar clicar em cadastrar;</br>
+Preencher apenas o campo "Email" e tentar clicar em cadastrar;</br>
+Preencher apenas o campo "Senha" e tentar clicar em cadastrar;</br>
+Preencher apenas o campo "Repetir Senha" e tentar clicar em cadastrar.</br>
+
+2 - Testar campo "Nome".</br>
+Tentar inserir mais que 50 caracteres;</br>
+Tentar inserir caracteres especiais;</br>
+Tentar inserir números;</br>
+Tentar inserir apenas espaços;</br>
+Tentar inserir um nome válido.</br>
+
+3 - Testar campo "Email".</br>
+Tentar inserir apenas espaços;</br>
+Tentar inserir um email apenas com caracteres especiais;</br>
+Tentar inserir um email apenas com números;</br>
+Tentar inserir um email sem @;</br>
+Tentar inserir um email válido.</br>
+
+4 - Testar campo "Senha".</br>
+Tentar inserir menos do que 4 caracteres;</br>
+Tentar inserir apenas números;</br>
+Tentar inserir apenas letras minúsculas;</br>
+Tentar inserir apenas letras maiúsculas;</br>
+Tentar inserir apenas caracteres especiais;</br>
+Tentar inserir uma senha com a maior quantidade de caracteres possíveis;</br>
+Tentar inserir uma senha válida.</br>
+
+5 - Testar campo "Repetir Senha".</br>
+Tentar inserir menos do que 4 caracteres;</br>
+Tentar inserir apenas números;</br>
+Tentar inserir apenas letras minúsculas;</br>
+Tentar inserir apenas letras maiúsculas;</br>
+Tentar inserir apenas caracteres especiais;</br>
+Tentar inserir uma senha com a maior quantidade de caracteres possíveis;</br>
+Tentar inserir uma senha válida diferente da senha inserida no campo "Senha";</br>
+Tentar inserir uma senha válida igual a senha inserida no campo "Senha".</br>
+
+6 - Testes de cadastro completo.</br>
+Tentar realizar um cadastro com algum campo em branco;</br>
+Tentar realizar um cadastro válido e conferir se a mensagem de confirmação é exibida;</br>
+Tentar realizar um cadastro com email igual a um já cadastrado;</br>
+Tentar realizar um cadastro com alguma pendência;</br>
+Tentar realizar um cadastro com o maximo de caracteres permitido em cada campo.</br>
