@@ -1,0 +1,40 @@
+form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label,
+input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
