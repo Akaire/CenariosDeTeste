@@ -1,0 +1,24 @@
+Funcionalidade: Cadastro de usuário
+  Como um usuário
+  Eu quero poder me cadastrar na plataforma
+  Para ter acesso aos recursos da plataforma
+
+Cenário: Cadastro com sucesso
+  Dado que eu estou na tela de cadastro
+  Quando eu preencho os campos "Nome", "Email" e "Senha" com valores válidos
+  E clico no botão "Cadastrar"
+  Então eu devo ser direcionado para a página inicial da plataforma
+  E devo ver a mensagem "Cadastro realizado com sucesso"
+
+Cenário: Cadastro com email já existente
+  Dado que eu estou na tela de cadastro
+  Quando eu preencho os campos "Nome", "Email" com valores válidos
+  E clico no botão "Cadastrar"
+  Então eu devo ver a mensagem de erro "Email já está em uso"
+
+Cenário: Cadastro com senha curta demais
+  Dado que eu estou na tela de cadastro
+  Quando eu preencho os campos "Nome", "Email", "Senha" com valores válidos
+  E a senha é menor que 8 caracteres
+  E clico no botão "Cadastrar"
+  Então eu devo ver a mensagem de erro "Senha deve ter pelo menos 8 caracteres"
