@@ -1,0 +1,29 @@
+Funcionalidade: Autenticação de usuários
+  Como usuário do sistema
+  Quero me autenticar com meu nome de usuário e senha
+  Para acessar a área restrita do sistema
+
+Cenário: Login com sucesso
+  Dado que eu estou na tela de login
+  Quando eu digito o meu nome de usuário e senha corretos
+  E clico no botão de login
+  Então eu sou redirecionado para a página inicial da área restrita
+  E vejo a mensagem de boas-vindas na página
+
+Cenário: Login com nome de usuário inválido
+  Dado que eu estou na tela de login
+  Quando eu digito um nome de usuário inválido
+  E clico no botão de login
+  Então eu vejo uma mensagem de erro informando que o nome de usuário é inválido
+
+Cenário: Login com senha inválida
+  Dado que eu estou na tela de login
+  Quando eu digito um nome de usuário válido
+  E uma senha inválida
+  E clico no botão de login
+  Então eu vejo uma mensagem de erro informando que a senha é inválida
+
+Cenário: Campos de nome de usuário e senha vazios
+  Dado que eu estou na tela de login
+  Quando eu clico no botão de login sem digitar nenhuma informação
+  Então eu vejo mensagens de erro informando que os campos de nome de usuário e senha são obrigatórios
