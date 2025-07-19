@@ -1,5 +1,5 @@
 # CenariosDeTeste
-Repositório para estudos e testes de QA utilizando diversas linguagens e tecnicas.
+Repositório criado com o intuito estudar e aprimorar testes de QA manuais e automatizados.
 
 Testes Manuais: 
 - Escrita de casos de testes em plain text.
