@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "cypress": "^12.5.1"
+    "cypress": "^12.17.4"
   },
   "name": "cenariosdeteste",
   "description": "Repositório para estudos e testes de QA utilizando diversas linguagens e tecnicas.",
@@ -171,7 +171,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open"
-
   },
   "repository": {
     "type": "git",
@@ -182,5 +181,6 @@
   "bugs": {
     "url": "https://github.com/Akaire/CenariosDeTeste/issues"
   },
-  "homepage": "https://github.com/Akaire/CenariosDeTeste#readme"
+  "homepage": "https://github.com/Akaire/CenariosDeTeste#readme",
+  "keywords": []
 }
