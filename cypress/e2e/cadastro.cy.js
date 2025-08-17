@@ -1,9 +1,13 @@
-// cypress/e2e/cadastro.cy.js
 import cadastroSel from '../support/selectors/cadastro/cadastrosel';
 
 
 describe('Testes de cadastro', () => {
 
+    beforeEach(() => {
+    // url do site de cadastro (inexistente)
+    cy.visit()
+    });
+    
     // Teste de cadastro simples, caminho feliz
     it('Teste deve realizar um cadastro', () => {
         cy.fixture('cadastrofix').then((cadastro) => {
